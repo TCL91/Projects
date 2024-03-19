@@ -1,108 +1,54 @@
-# Cookiecutter Data Science
+# Covid for the years of 2020 and 2021
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+(https://public.tableau.com/views/CovidProject_17098434893480/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
+## Introduction to the Project
+This project is analyzing a Covid dataset spanning from 2020 to 2021 to demostrate my skills using SQL and Tableau Public.
 
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+## Table of Contents
 
+- [About the Dataset](#about-the-dataset)
+- [Notebook Navigation](#notebook-navigation)
+- [My Approach to Solve this Problem](#my-approach-to-solve-this-problem)
+- [Technical Approach in This Project](#technical-approach-in-this-project)
+- [Limitations of Analysis](#limitations-of-analysis)
+- [Data Cleaning](#data-cleaning)
+- [Data Analysis](#data-analysis)
+- [Key Takeaways](#key-takeaways)
+- [Business Recommendation](#business-recommendation)
+- [Next Step](#next-step)
+- [References](#references)
 
-### Requirements to use the cookiecutter template:
------------
- - Python 2.7 or 3.5+
- - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
+## About the Dataset
+- This project has a dataset called Covid Deaths.
+- There are 85711 observations and 59 features, with each row being a different day ordered by date, continent, and location.
+- You can find the datasets publicly available here: ((https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/CovidDeaths.xlsx))
 
-``` bash
-$ pip install cookiecutter
-```
-
-or
-
-``` bash
-$ conda config --add channels conda-forge
-$ conda install cookiecutter
-```
-
-
-### To start a new project, run:
-------------
-
-    cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
+## Notebook Navigation
 
 
-[![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
+## My Approach to Solve this Problem
+There are many obervations we can look at by analyzing this data such as Covid Deaths in each country. The main scope of this project is to demonstrate my SQL skills and to apply them to an excel document to put them on Tableau.  
 
-### New version of Cookiecutter Data Science
-------------
-Cookiecutter data science is moving to v2 soon, which will entail using
-the command `ccds ...` rather than `cookiecutter ...`. The cookiecutter command
-will continue to work, and this version of the template will still be available.
-To use the legacy template, you will need to explicitly use `-c v1` to select it.
-Please update any scripts/automation you have to append the `-c v1` option (as above),
-which is available now.
+## Technical Approach in This Project
 
 
-### The resulting directory structure
-------------
+## Limitations of Analysis
 
-The directory structure of your new project looks like this: 
 
-```
-├── LICENSE
-├── Makefile           <- Makefile with commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-├── src                <- Source code for use in this project.
-│   ├── __init__.py    <- Makes src a Python module
-│   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   ├── features       <- Scripts to turn raw data into features for modeling
-│   │   └── build_features.py
-│   │
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
-│
-└── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-```
+## Data Cleaning
+- The biggest cleaning was splitting the data into two different datasets, Covid Deaths, and Covid Vaccinations.
 
-## Contributing
+## Data Analysis
 
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
 
-### Installing development requirements
-------------
+## Key Takeaways
 
-    pip install -r requirements.txt
 
-### Running the tests
-------------
+## Business Recommendation
 
-    py.test tests
+
+## Next Step
+
+
+## References
