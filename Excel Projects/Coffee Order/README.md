@@ -1,108 +1,68 @@
-# Cookiecutter Data Science
+# Coffee Orders and Sales
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+(INSERT LINK IF Applicable)
 
+## Introduction to the Project
+This project is to show various analysis of coffee orders and sales by making an Excel dashboard.
 
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+## Table of Contents
 
+- [About the Dataset](#about-the-dataset)
+- [Notebook Navigation](#notebook-navigation)
+- [My Approach to Solve this Problem](#my-approach-to-solve-this-problem)
+- [Technical Approach in This Project](#technical-approach-in-this-project)
+- [Limitations of Analysis](#limitations-of-analysis)
+- [Data Cleaning](#data-cleaning)
+- [Data Analysis](#data-analysis)
+- [Key Takeaways](#key-takeaways)
+- [Business Recommendation](#business-recommendation)
+- [Next Step](#next-step)
+- [References](#references)
 
-### Requirements to use the cookiecutter template:
------------
- - Python 2.7 or 3.5+
- - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
+## About the Dataset
+- This dataset contains coffee orders from different people.
+- There are 1000 observations and 16 features, with each row being a differnt person.
+- You can find the data publicly available here: [[coffeeOrdersData]]([LINK](https://github.com/mochen862/excel-project-coffee-sales))
 
-``` bash
-$ pip install cookiecutter
-```
-
-or
-
-``` bash
-$ conda config --add channels conda-forge
-$ conda install cookiecutter
-```
-
-
-### To start a new project, run:
-------------
-
-    cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
+## Notebook Navigation
 
 
-[![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
+## My Approach to Solve this Problem
+There are many obervations we can look at by analyzing this data such as top 5 customers, sales by country, etc. The main scope of this project is to demostrate my dashboard skills using Excel.  
 
-### New version of Cookiecutter Data Science
-------------
-Cookiecutter data science is moving to v2 soon, which will entail using
-the command `ccds ...` rather than `cookiecutter ...`. The cookiecutter command
-will continue to work, and this version of the template will still be available.
-To use the legacy template, you will need to explicitly use `-c v1` to select it.
-Please update any scripts/automation you have to append the `-c v1` option (as above),
-which is available now.
+## Technical Approach in This Project
+- Initial pre-processing
+    - Excel Formulas: IF(), XLOOKUP(), INDEX(), MATCH() 
+    - Populating the orders sheet with the customers and products sheets
+    - end result is a dataset that I can use for visualization and analysis
+    
+
+- Feature cleaning & engineering
+    - Here I format the date, and numbers to get ready for Analysis and to check/remove duplicates
 
 
-### The resulting directory structure
-------------
+- Exploratory Data Analysis
+    - Excel Features: Tables, Pivot Tables/Charts
+    - Utilize Tables and Pivot Tables to make the visualizations to be put in the dashboard.
 
-The directory structure of your new project looks like this: 
 
-```
-├── LICENSE
-├── Makefile           <- Makefile with commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-├── src                <- Source code for use in this project.
-│   ├── __init__.py    <- Makes src a Python module
-│   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   ├── features       <- Scripts to turn raw data into features for modeling
-│   │   └── build_features.py
-│   │
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
-│
-└── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-```
 
-## Contributing
+## Limitations of Analysis
 
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
 
-### Installing development requirements
-------------
+## Data Cleaning
 
-    pip install -r requirements.txt
 
-### Running the tests
-------------
+## Data Analysis
 
-    py.test tests
+
+## Key Takeaways
+
+
+## Business Recommendation
+
+
+## Next Step
+
+
+## References

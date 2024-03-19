@@ -1,108 +1,68 @@
-# Cookiecutter Data Science
+# Road Accidents
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+(INSERT LINK IF Applicable)
 
+## Introduction to the Project
+This project is to show various analysis of road accidents by making an Excel dashboard.
 
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+## Table of Contents
 
+- [About the Dataset](#about-the-dataset)
+- [Notebook Navigation](#notebook-navigation)
+- [My Approach to Solve this Problem](#my-approach-to-solve-this-problem)
+- [Technical Approach in This Project](#technical-approach-in-this-project)
+- [Limitations of Analysis](#limitations-of-analysis)
+- [Data Cleaning](#data-cleaning)
+- [Data Analysis](#data-analysis)
+- [Key Takeaways](#key-takeaways)
+- [Business Recommendation](#business-recommendation)
+- [Next Step](#next-step)
+- [References](#references)
 
-### Requirements to use the cookiecutter template:
------------
- - Python 2.7 or 3.5+
- - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
+## About the Dataset
+- This dataset contains road accident data from different incidents.
+- There are 307973 observations and 21 features, with each row being a different person.
+- After adding two features it now toals 23.
+- You can find the data publicly available here: [[TITLERoad Accident Data]]([(https://docs.google.com/spreadsheets/d/1R_uaoZL18nRbqC_MULVne90h3SdRbAyn/edit?usp=sharing&ouid=116890999875311477003&rtpof=true&sd=true)])
 
-``` bash
-$ pip install cookiecutter
-```
-
-or
-
-``` bash
-$ conda config --add channels conda-forge
-$ conda install cookiecutter
-```
-
-
-### To start a new project, run:
-------------
-
-    cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
-
-
-[![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
-
-### New version of Cookiecutter Data Science
-------------
-Cookiecutter data science is moving to v2 soon, which will entail using
-the command `ccds ...` rather than `cookiecutter ...`. The cookiecutter command
-will continue to work, and this version of the template will still be available.
-To use the legacy template, you will need to explicitly use `-c v1` to select it.
-Please update any scripts/automation you have to append the `-c v1` option (as above),
-which is available now.
+## Notebook Navigation
 
 
-### The resulting directory structure
-------------
+## My Approach to Solve this Problem
+There are many obervations we can look at by analyzing this data such as total casualties, road conditions etc. The main scope of this project is to demonstrate my dashboard skills using Excel.  
 
-The directory structure of your new project looks like this: 
+## Technical Approach in This Project
+- Initial pre-processing
+    - Checking over the data using a filter to see if any feautures needed to be fixed and/or cleaned
+    
 
-```
-├── LICENSE
-├── Makefile           <- Makefile with commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-├── src                <- Source code for use in this project.
-│   ├── __init__.py    <- Makes src a Python module
-│   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   ├── features       <- Scripts to turn raw data into features for modeling
-│   │   └── build_features.py
-│   │
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
-│
-└── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-```
+- Feature cleaning & engineering
+    - Cleaned the data mainly using the replace all
 
-## Contributing
 
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
+- Exploratory Data Analysis
+    - Excel Features: Tables, Pivot Tables/Charts
+    - Utilize Tables and Pivot Tables to make the visualizations to be put in the dashboard.
 
-### Installing development requirements
-------------
 
-    pip install -r requirements.txt
 
-### Running the tests
-------------
+## Limitations of Analysis
 
-    py.test tests
+
+## Data Cleaning
+- Accident_Severity had a typo "fetal" and should be "fatal" using the replace all.
+
+
+## Data Analysis
+
+
+## Key Takeaways
+
+
+## Business Recommendation
+
+
+## Next Step
+
+
+## References
