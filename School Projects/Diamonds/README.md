@@ -1,4 +1,4 @@
-# Mental Health in the Tech Field 2016
+# Diamonds
 
 
 ## Introduction to the Project
