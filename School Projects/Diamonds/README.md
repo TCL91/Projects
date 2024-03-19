@@ -1,6 +1,5 @@
 # Mental Health in the Tech Field 2016
 
-(INSERT LINK IF Applicable)
 
 ## Introduction to the Project
 This project I did in my Data Mining and Machine Learning Course using R-Studio and the objective is to report on which model is the best to be used in predicting the price of diamonds. 
