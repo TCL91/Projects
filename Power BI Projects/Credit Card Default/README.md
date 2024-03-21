@@ -1,8 +1,8 @@
-# INSERT TITLE
+# Credit Card Default
 
 
 ## Introduction to the Project
-
+This project is about analyzing a credit card default dataset to demostrate my skills using Power BI.
 
 ## Table of Contents
 
@@ -19,10 +19,9 @@
 - [References](#references)
 
 ## About the Dataset
-- This dataset contains ???? data from different ???.
-- There are 3??? observations and ?? features, with each row being a ???.
-- After adding two features it now toals ??.
-- You can find the data publicly available here: ((https://docs.google.com/spreadsheets/d/1R_uaoZL18nRbqC_MULVne90h3SdRbAyn/edit?usp=sharing&ouid=116890999875311477003&rtpof=true&sd=true))
+- This project uses a dataset called "data".
+- There are 30000 observations and 26 features, with each row being a different credit card default case.
+- You can find the data publicly available here by paying or can look in this project folder: ((https://www.coursera.org/projects/power-bi-desktop))
 
 ## Notebook Navigation
 
@@ -31,15 +30,13 @@
  
 
 ## Technical Approach in This Project
-
-
+- This project uses Power BI to analyze the data.
 
 
 ## Limitations of Analysis
 
 
 ## Data Cleaning
-
 
 
 ## Data Analysis

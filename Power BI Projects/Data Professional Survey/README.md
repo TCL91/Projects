@@ -19,10 +19,9 @@
 - [References](#references)
 
 ## About the Dataset
-- This dataset contains ???? data from different ???.
-- There are 3??? observations and ?? features, with each row being a ???.
-- After adding two features it now toals ??.
-- You can find the data publicly available here: ((https://docs.google.com/spreadsheets/d/1R_uaoZL18nRbqC_MULVne90h3SdRbAyn/edit?usp=sharing&ouid=116890999875311477003&rtpof=true&sd=true))
+- This dataset contains data about data professionals and their careers in data science.
+- There are 630 observations and 28 features, with each row being a different person in data science.
+- You can find the data publicly available here: ((https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx))
 
 ## Notebook Navigation
 
@@ -34,12 +33,10 @@
 
 
 
-
 ## Limitations of Analysis
 
 
 ## Data Cleaning
-
 
 
 ## Data Analysis
