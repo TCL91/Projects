@@ -1,6 +1,5 @@
 # Sentiment Analysis
 
-(INSERT LINK IF Applicable)
 
 ## Introduction to the Project
 This project explores how sentiment analysis is helpful in various types of organizations. retail (Amazon), healthcare, and education are the three areas this paper will explore, but the techniques and results can be used in other areas. With the growth of social media and online presence, people are expressing their opinions daily. Sentiment analysis can help determine whether something is negative, neutral, or positive right away and not have to read every single review or tweet. Using an amazon dataset and gathering tweets using the Twitter API, I conducted sentiment analysis using the VADER (Valence Aware Dictionary for sEntiment Reasoning) and RoBERTa (Robustly Optimized BERT Pre-training Approach) methods and then compared them. The comparison results were largely the same, with the RoBERTa method being more accurate due to being a more powerful tool. Overall, the results will help show that organizations should utilize sentiment analysis to have a better relationship with their customers or clients.
